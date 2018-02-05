@@ -1,0 +1,78 @@
+/* Cover photo*/
+.top-image {
+    width: 100%;
+    height: 500px;
+    background: url('../images/kronborg-castle.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Content */
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Pacifico', cursive;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.box {
+    flex: 1;
+    margin: 10px 10px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #3ded8f;
+}
+
+/* media query */
+@media (max-width: 768px) {
+    .top-image {
+        height: 250px;
+    }
+    .container {
+        flex-direction: column;
+  }
+}
+
+
+.country-name {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 30px
+}
+
+.country-description {
+    margin-top: 30px;
+    text-align: left;
+}
+
+/* footer */
+.footer {
+    background-color: #eaeaea;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.button {
+    font-family: 'Pacifico', cursive;
+    width: 400px;
+    margin: 0 auto;
+    padding: 15px 0;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: #FFFFFF;
+    background: #3ded8f;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;/* for Safari and Chrome */
+    -moz-border-radius: 10px;/* for Firefox */
+}
+
